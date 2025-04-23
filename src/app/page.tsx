@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Greet from "./components/greet";
+import Counter from "./components/counter";
 
 export default function Home() {
   return (
@@ -45,6 +47,10 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+
+        <Greet />
+
+        <Counter />
       </main>
       <footer className={styles.footer}>
         <a
